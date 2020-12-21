@@ -1,0 +1,19 @@
+cars = [
+    'tractor',
+    'ambulance',
+    'tow_truck',
+    'sports_car',
+    'pickup',
+    'school_bus',
+    'garbage_truck',
+    'minibus',
+    'minivan',
+    'streetcar',
+    'recreational_vehicle',
+    'moving_van',
+    'passenger_car',
+    'Model_T',
+    'trolleybus',
+    'police_van',
+    'limousine'
+]
