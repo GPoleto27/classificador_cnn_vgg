@@ -81,4 +81,9 @@ while True:
 
         # Exibe a imagem processada
         cv2.imshow("Classificador", img)
-    cv2.waitKey(1)
+        
+    if cv2.waitKey(1) == 27:
+        break
+
+cv2.destroyAllWindows()
+cap.release()
