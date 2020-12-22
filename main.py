@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.vgg16 import preprocess_input, decode_predictions
 from keras.applications.vgg16 import VGG16
