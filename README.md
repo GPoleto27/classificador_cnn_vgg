@@ -1,7 +1,7 @@
 # Classificador CNN VGG
 
 Aplicação em python de um classificador utilizando VGG para classificação de uma área de interesse de um vídeo.
-[Video DEMO]()
+[Video DEMO](https://youtu.be/Xt9MWlmFYDU)
 
 # Instalação e execução
 
