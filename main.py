@@ -33,6 +33,8 @@ end_y = y + h
 # Define o modelo como VGG16 com os pesos da rede imagenet
 model = VGG16(weights='imagenet')
 
+result = cv2.VideoWriter('result.avi', cv2.VideoWriter_fourcc(*'XVID'), 30.0, (1280, 720))
+
 while True:
     # Lê um frame
     success, img = cap.read()
@@ -81,9 +83,12 @@ while True:
 
         # Exibe a imagem processada
         cv2.imshow("Classificador", img)
+
+        result.write(img)
         
     if cv2.waitKey(1) == 27:
         break
 
-cv2.destroyAllWindows()
 cap.release()
+result.release()
+cv2.destroyAllWindows()

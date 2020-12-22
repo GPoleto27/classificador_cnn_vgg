@@ -3,6 +3,10 @@
 Aplicação em python de um classificador utilizando VGG para classificação de uma área de interesse de um vídeo.
 [Video DEMO](https://youtu.be/Xt9MWlmFYDU)
 
+Construa a imagem a partir do dockerfile ([Como?](https://docs.docker.com/engine/reference/commandline/build/))
+
+Ou:
+
 # Instalação e execução
 
 ## Clonando o Repositório
@@ -32,7 +36,3 @@ Você pode usar seu próprio arquivo de vídeo ou webcam.
 Para arquivo, apenas modifique o nome do arquivo, para usar sua webcam, altere para um inteiro que irá indicar o índice de sua webcam.
 
 > (Normalmente, se há apenas uma câmera, basta utilizar o valor 0).
-
-# TODO
-
-- Criar um Docker
