@@ -3,10 +3,6 @@
 Aplicação em python de um classificador utilizando VGG para classificação de uma área de interesse de um vídeo.
 [Video DEMO](https://youtu.be/Xt9MWlmFYDU)
 
-Construa a imagem a partir do dockerfile ([Como?](https://docs.docker.com/engine/reference/commandline/build/))
-
-Ou:
-
 # Instalação e execução
 
 ## Clonando o Repositório
