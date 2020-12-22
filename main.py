@@ -81,4 +81,4 @@ while True:
 
         # Exibe a imagem processada
         cv2.imshow("Classificador", img)
-        cv2.waitKey(1)
+    cv2.waitKey(1)
